@@ -1,0 +1,65 @@
+
+.container1{
+    position: relative;
+  text-align: center;
+  color: rgb(8, 8, 8)5, 165;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 119px;
+    font-family: monospace;
+  }
+  h1 {
+    position: absolute;
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 182px;
+    font-family: monospace;
+    margin-left: 16px;
+}
+
+span::before {
+    content: "Frontend Developer";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Frontend Developer";
+    }
+
+    50% {
+        content: "Backend Developer";
+    }
+
+    75% {
+        content: "Fullstack Developer";
+    }
+}
+
+.about{
+
+
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+     }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+
